@@ -77,8 +77,6 @@ def main():
                         dir = dir_cur +'\\'+ temp_dir
                     else:
                         dir = dir_cur + '\\' + target_repo
-                    print('11111')
-                    print(dir)
                     os.mkdir(dir)
                     print("Now sit back and relax. I will download all the blobs for you in"+str(dir)+"directory. \nOpen the directory, unzip all the files and explore like a Boss. ")
                     for x in final_list_of_blobs:
